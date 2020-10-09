@@ -1,6 +1,6 @@
 # PATTERN PRINTING (CODE 1)
 
-print("how many row you want to print:\n")
+print("Please enter the number of rows you want to print:\n")
 one=int(input())
 print("type 1 or 0:\n")
 two=int(input())
@@ -18,8 +18,8 @@ elif new==False:
 
 # PATTERN PRINTING (CODE2)
 
-a=int(input("please enter number of lines you want to print"))
-b=bool(int(input("please add 0 for False")))
+a=int(input("Please enter number of rows you want to print:\n"))
+b=bool(int(input("please add 0 for False and 1 for True:\n")))
 
 def star(a,b):
     if b==True:

@@ -8,5 +8,6 @@ def fibo(n):
         return 1
     else:
         return fibo(n-1)+fibo(n-2)
-print(fibo(n))
+
 print("your ",n,"th term in the fibonacci series is:")
+print(fibo(n))

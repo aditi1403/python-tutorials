@@ -1,6 +1,6 @@
 # FIBONACCI SERIES
 
-n=int(input("enter the nth term\n"))
+n=int(input("enter the nth term of the fibonacci sequence that you want:\n"))
 def fibo(n):
     if n==1:
         return 0

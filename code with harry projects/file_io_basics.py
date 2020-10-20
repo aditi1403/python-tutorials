@@ -98,3 +98,11 @@
 # f=open("file name")
 # f.close()
  
+# lambda functions or anonymous functions
+#
+# minus=lambda x,y:x-y
+#
+# is same as
+# 
+# def minus(x,y):
+#     return x-y

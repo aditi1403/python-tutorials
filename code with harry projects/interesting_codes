@@ -1,0 +1,6 @@
+#print each digit in new line 
+
+n=(input("enter your number:\n"))
+a=str(n)
+for x in a:
+    print(x,end="\n")
